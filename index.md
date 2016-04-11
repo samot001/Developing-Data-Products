@@ -1,0 +1,47 @@
+---
+title       : Annual measurements of the level, in feet, of Lake Huron 1875 to 1972
+subtitle    : 
+author      : Thomas Infuehr
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+
+## Introduction
+
+Annual measurements of the level, in feet, of Lake Huron 1875–1972. 
+
+--- 
+
+## The plot
+
+
+```r
+data(LakeHuron)
+plot(LakeHuron, main = "Annual measurements of the level, 
+in feet, of Lake Huron during chosen period", xlab = "Time", ylab = "Height")
+```
+
+![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png)
+
+--- 
+
+## Slide 4
+
+stub slide 4
+
+--- 
+
+## Slide 5
+
+Stub slide 5
+
+
+
+
+
