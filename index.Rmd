@@ -32,7 +32,7 @@ knit        : slidify::knit2slides
   is the first year of the data set used. As default value for end date is the last year of the data set chosen.
   
   The following picture shows the section containing the numeric input fields:
-  ![image](assets/img/left_side.png)
+  ![image](leftside.png)
 
 --- 
 
@@ -51,7 +51,7 @@ in feet, of Lake Huron during chosen period", xlab = "Time", ylab = "Height")
 
 Here's an example for the period from 1875 to 1900
 
-![image](assets/img/example.png)
+![image](example.png)
 
 
 
