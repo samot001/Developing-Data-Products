@@ -46,7 +46,12 @@
     <h2>Introduction</h2>
   </hgroup>
   <article data-timings="">
-    <p>Annual measurements of the level, in feet, of Lake Huron 1875–1972. </p>
+    <ul>
+<li><p>The goal of this app is to calculate the average height of Lake Huron during different time periods.</p></li>
+<li><p>The app consists of two sections: Input and Output</p></li>
+<li><p>The input section contains the input fields for the start and the end date</p></li>
+<li><p>The output section contains the resulting plot of Lake Huron&#39;s height over this period</p></li>
+</ul>
 
   </article>
   <!-- Presenter Notes -->
@@ -54,10 +59,28 @@
 
 <slide class="" id="slide-2" style="background:;">
   <hgroup>
-    <h2>The plot</h2>
+    <h2>Input section</h2>
   </hgroup>
   <article data-timings="">
-    <pre><code class="r">data(LakeHuron)
+    <p>On the left site the different start and end date of the period can be chosen. As default for the start data
+  is the first year of the data set used. As default value for end date is the last year of the data set chosen.</p>
+
+<p>The following picture shows the section containing the numeric input fields:
+  <img src="left_side.png" alt="width"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Output Section</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>On the right site the plot shows the development of the height during the chosen period. 
+Here&#39;s the code to create the plot:</p>
+
+<pre><code class="r">data(LakeHuron)
 plot(LakeHuron, main = &quot;Annual measurements of the level, 
 in feet, of Lake Huron during chosen period&quot;, xlab = &quot;Time&quot;, ylab = &quot;Height&quot;)
 </code></pre>
@@ -68,23 +91,14 @@ in feet, of Lake Huron during chosen period&quot;, xlab = &quot;Time&quot;, ylab
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-3" style="background:;">
-  <hgroup>
-    <h2>Slide 4</h2>
-  </hgroup>
-  <article data-timings="">
-    <p>stub slide 4</p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
 <slide class="" id="slide-4" style="background:;">
   <hgroup>
-    <h2>Slide 5</h2>
+    <h2>Example</h2>
   </hgroup>
   <article data-timings="">
-    <p>Stub slide 5</p>
+    <p>Here&#39;s an example for the period from 1875 to 1900</p>
+
+<p><img src="example.png" alt="width"></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -102,19 +116,19 @@ in feet, of Lake Huron during chosen period&quot;, xlab = &quot;Time&quot;, ylab
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='The plot'>
+        data-slide=2 title='Input section'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Slide 4'>
+        data-slide=3 title='Output Section'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='Slide 5'>
+        data-slide=4 title='Example'>
          4
       </a>
     </li>
